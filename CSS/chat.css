@@ -1,3 +1,7 @@
+.chat {
+  background-image: url("../images/chatBg.png");
+}
+
 .chat__write {
   position: fixed;
   bottom: 50px;
@@ -27,4 +31,9 @@
   padding: 10px;
   width: 100%;
   border: none;
+  font-size: 14px;
+}
+
+.chat__write-column input:focus {
+  outline: none;
 }
